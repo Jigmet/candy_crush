@@ -16,7 +16,7 @@
       #board .row .cell i {
         font-size: 8vmin;
         line-height: 10vmin; }
-        #board .row .cell i.f a-heart {
+        #board .row .cell i.fa-heart {
           color: #c0392b; }
         #board .row .cell i.fa-star {
           color: #8e44ad; }
@@ -24,3 +24,7 @@
           color: #16a085; }
         #board .row .cell i.fa-circle {
           color: #2c3e50; }
+        #board .row .cell i.fa-rocket {
+          color: #d35400; }
+        #board .row .cell i.fa-car {
+          color: #f1c40f; }
