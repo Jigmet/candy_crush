@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+#board{
+  margin: 0 auto;
+  width: 100vmin;
+  text-align: center;
+  .row{
+    height: 10vmin;
+    .cell{
+      display: inline-block;
+      width: 10vmin;
+      height: 10vmin;
+      background-color: #ecf0f1;
+      border: 1px solid #cbd0d3;
+      i{
+        font-size: 8vmin;
+        line-height: 10vmin;
+
+        &.f a-heart{
+          color: #c0392b;
+        }
+        &.fa-star{
+          color: #8e44ad;
+        }
+        &.fa-square{
+          color: #16a085;
+        }
+        &.fa-circle{
+          color: #2c3e50;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "candycrush",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Jigmet Wangchuk <orangeorcs@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Jigmet/calculator",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-css": "^3.0.3"
+  }
+  
+}
